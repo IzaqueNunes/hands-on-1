@@ -1,0 +1,15 @@
+Performing C++ SOURCE FILE Test FLAG_FOUND failed with the following output:
+Change Dir: C:/Users/izaque/Downloads/hands-on-1 (1)/hands-on-1/downward-main/builds/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake -f Makefile /nologo cmTC_96361\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_96361.dir\build.make /nologo -L                  CMakeFiles\cmTC_96361.dir\build
+Building CXX object CMakeFiles/cmTC_96361.dir/src.cxx.obj
+	C:\MinGW\bin\c++.exe -DFLAG_FOUND  -std=c++20 -o CMakeFiles\cmTC_96361.dir\src.cxx.obj -c "C:\Users\izaque\Downloads\hands-on-1 (1)\hands-on-1\downward-main\builds\release\CMakeFiles\CMakeTmp\src.cxx"
+c++.exe: error: unrecognized command line option '-std=c++20'; did you mean '-std=c++03'?
+NMAKE : fatal error U1077: 'C:\MinGW\bin\c++.exe' : c¾digo de retorno '0x1'
+Stop.
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"' : c¾digo de retorno '0x2'
+Stop.
+
+
+Source file was:
+int main() { return 0; }
